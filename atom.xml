@@ -4,7 +4,7 @@
   <subtitle><![CDATA[只要面对着阳光努力向上，日子就会变得单纯而美好]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.iwant.live/"/>
-  <updated>2015-12-23T04:45:05.000Z</updated>
+  <updated>2015-12-23T06:38:52.000Z</updated>
   <id>http://www.iwant.live/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://www.iwant.live/2015/12/23/ios-study-resource/"/>
     <id>http://www.iwant.live/2015/12/23/ios-study-resource/</id>
     <published>2015-12-23T04:01:01.000Z</published>
-    <updated>2015-12-23T04:45:05.000Z</updated>
+    <updated>2015-12-23T06:38:52.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>学习网址</p>
 </blockquote>
@@ -27,6 +27,13 @@
 <li><a href="http://code4app.com/" target="_blank" rel="external">Code4app</a>Code4App</li>
 <li><a href="http://www.cocoachina.com/" target="_blank" rel="external">CocoaChina</a>Cocoa China</li>
 <li><a href="http://www.oschina.net/ios" target="_blank" rel="external">OSChina</a>开源中国</li>
+</ul>
+<blockquote>
+<p>大神博客</p>
+</blockquote>
+<ul>
+<li><a href="http://blog.devtang.com/" target="_blank" rel="external">唐巧的博客</a></li>
+<li><a href="http://blog.ibireme.com/" target="_blank" rel="external">ibireme</a></li>
 </ul>
 <blockquote>
 <p>应用内测</p>
@@ -41,7 +48,15 @@
 <ul>
 <li><a href="http://bugly.qq.com/" target="_blank" rel="external">Bugly</a>腾讯Bugly提供了专业的Crash(崩溃)、Android ANR(应用无响应)、iOS卡顿的监控和解决方案，同时也有统计、应用内测功能。</li>
 <li><a href="http://bughd.com/" target="_blank" rel="external">BugHD</a>也是fir团队开发的，不过我之前使用，应用提交审核被拒绝，拒绝理由是有自动更新机制什么的，后来换成Bugly。</li>
-<li><a href="http://www.umeng.com/" target="_blank" rel="external">umeng</a>友盟统计很全面，但崩溃日志分析比较繁琐。</li>
+<li><a href="http://www.umeng.com/" target="_blank" rel="external">UMeng</a>友盟统计很全面，但崩溃日志分析比较繁琐。</li>
+</ul>
+<a id="more"></a>
+<blockquote>
+<p>其他</p>
+</blockquote>
+<ul>
+<li><a href="https://www.theiphonewiki.com/wiki/Models" target="_blank" rel="external">Apple设备型号</a></li>
+<li><a href="https://developer.apple.com/downloads/?q=xcode" target="_blank" rel="external">XCode下载地址</a></li>
 </ul>
 ]]></content>
     <summary type="html">
@@ -58,7 +73,7 @@
     <link href="http://www.iwant.live/2015/12/23/ios-open-source/"/>
     <id>http://www.iwant.live/2015/12/23/ios-open-source/</id>
     <published>2015-12-23T02:44:45.000Z</published>
-    <updated>2015-12-23T03:46:23.000Z</updated>
+    <updated>2015-12-23T06:13:25.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>网络相关</p>
 </blockquote>
@@ -105,6 +120,12 @@
 <li><a href="https://github.com/facebook/pop" target="_blank" rel="external">pop</a>Facebook开源的动画引擎。</li>
 <li><a href="https://github.com/MengTo/Spring" target="_blank" rel="external">Spring</a>一个Swift编写的开源库，可简化Swift编写的iOS动画。支持shake、pop、morph、squeeze、wobble、swing、flipX、flipY、fall、squeezeLeft、squeezeRight以及squeezeDown等多种动画形式。</li>
 <li><a href="https://github.com/nicklockwood/iCarousel" target="_blank" rel="external">iCarousel</a>iCarousel是一个旨在简化实现各种类型的旋转木马(分页滚动视图等）。</li>
+</ul>
+<blockquote>
+<p>其他</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/ibireme/YYKit" target="_blank" rel="external">YYKit</a>YYKit 是一组庞大、功能丰富的 iOS 组件。</li>
 </ul>
 ]]></content>
     <summary type="html">
