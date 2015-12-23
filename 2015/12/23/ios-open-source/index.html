@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>提高UIWebView滚动速度 | 拂尘的博客</title>
+  <title>IOS开源库整理 | 拂尘的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="提高UIWebView滚动速度">
+  <meta name="description" content="IOS开源库,opensource">
 <meta property="og:type" content="article">
-<meta property="og:title" content="提高UIWebView滚动速度">
-<meta property="og:url" content="http://www.iwant.live/2015/12/10/uiwebview-move-speed/index.html">
+<meta property="og:title" content="IOS开源库整理">
+<meta property="og:url" content="http://www.iwant.live/2015/12/23/ios-open-source/index.html">
 <meta property="og:site_name" content="拂尘的博客">
-<meta property="og:description" content="提高UIWebView滚动速度">
-<meta property="og:updated_time" content="2015-12-10T07:43:09.000Z">
+<meta property="og:description" content="IOS开源库,opensource">
+<meta property="og:updated_time" content="2015-12-23T03:34:00.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="提高UIWebView滚动速度">
-<meta name="twitter:description" content="提高UIWebView滚动速度">
+<meta name="twitter:title" content="IOS开源库整理">
+<meta name="twitter:description" content="IOS开源库,opensource">
   
     <link rel="alternative" href="/atom.xml" title="拂尘的博客" type="application/atom+xml">
   
@@ -176,11 +176,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-uiwebview-move-speed" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-ios-open-source" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/12/10/uiwebview-move-speed/" class="article-date">
-  	<time datetime="2015-12-10T07:41:12.000Z" itemprop="datePublished">2015-12-10</time>
+      <a href="/2015/12/23/ios-open-source/" class="article-date">
+  	<time datetime="2015-12-23T02:44:45.000Z" itemprop="datePublished">2015-12-23</time>
 </a>
     </div>
   
@@ -193,7 +193,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      提高UIWebView滚动速度
+      IOS开源库整理
     </h1>
   
 
@@ -215,9 +215,52 @@
       
         
         <blockquote>
-<p>提高UIWebView滚动速度</p>
+<p>网络相关</p>
 </blockquote>
-<figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">self</span><span class="variable">.webView</span><span class="variable">.scrollView</span><span class="variable">.decelerationRate</span> = <span class="built_in">UIScrollViewDecelerationRateNormal</span>;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><a href="https://github.com/AFNetworking/AFNetworking" target="_blank" rel="external">AFNetwoking</a>最多人用的网络连接开源库。</li>
+<li><a href="https://github.com/Alamofire/Alamofire" target="_blank" rel="external">Alamofire</a>Alamofire是AFNetworking的作者mattt新写的网络请求的swift库。</li>
+<li><a href="https://github.com/ninjinkun/NJKWebViewProgress" target="_blank" rel="external">NJKWebViewProgress</a>UIWebView显示进度条。</li>
+</ul>
+<blockquote>
+<p>图像相关</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/rs/SDWebImage" target="_blank" rel="external">SDWebImage</a>网络图片获取及缓存处理。</li>
+<li><a href="https://github.com/onevcat/Kingfisher" target="_blank" rel="external">Kingfisher</a>纯Swift实现的类SDWebImage库，实现了异步下载和缓存图片。</li>
+<li><a href="https://github.com/ruslanskorb/RSKImageCropper" target="_blank" rel="external">RSKImageCropper</a>图片裁剪库，支持自定义比例。</li>
+<li><a href="https://github.com/nicklockwood/FXBlurView" target="_blank" rel="external">FXBlurView</a>支持静态、动态毛玻璃效果。</li>
+</ul>
+<a id="more"></a>
+<blockquote>
+<p>数据库</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/magicalpanda/MagicalRecord" target="_blank" rel="external">MagicalRecord</a>MagicalRecord给Core Data提供了一层外包装，隐藏掉所有不相关的东西，纯对象操作。</li>
+</ul>
+<blockquote>
+<p>AutoLayout</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/SnapKit/Masonry" target="_blank" rel="external">Masonry</a>轻量级自动布局框架，简单易用。</li>
+<li><a href="https://github.com/SnapKit/SnapKit" target="_blank" rel="external">SnapKit</a>Swift下的Masonry。</li>
+</ul>
+<blockquote>
+<p>提示</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/jdg/MBProgressHUD" target="_blank" rel="external">MBProgressHUD</a>简单易用的加载提示类。</li>
+<li><a href="https://github.com/cwRichardKim/RKNotificationHub" target="_blank" rel="external">RKNotificationHub</a>数字提醒、支持数字、红点。</li>
+<li><a href="https://github.com/JaviSoto/JSBadgeView" target="_blank" rel="external">JSBadgeView</a>数字提醒，只能是数字。</li>
+</ul>
+<blockquote>
+<p>动画</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/facebook/pop" target="_blank" rel="external">pop</a>Facebook开源的动画引擎。</li>
+<li><a href="https://github.com/MengTo/Spring" target="_blank" rel="external">Spring</a>一个Swift编写的开源库，可简化Swift编写的iOS动画。支持shake、pop、morph、squeeze、wobble、swing、flipX、flipY、fall、squeezeLeft、squeezeRight以及squeezeDown等多种动画形式。</li>
+<li><a href="https://github.com/nicklockwood/iCarousel" target="_blank" rel="external">iCarousel</a>iCarousel是一个旨在简化实现各种类型的旋转木马(分页滚动视图等）。</li>
+</ul>
 
       
     </div>
@@ -230,16 +273,10 @@
 
 <nav id="article-nav">
   
-    <div id="article-nav-newer" class="article-nav-title">
-      <a href="/2015/12/23/ios-open-source/">
-        IOS开源库整理
-      </a>
-    </div>
-  
   
     <div id="article-nav-older" class="article-nav-title">
-      <a href="/2015/12/01/mysql-dump-sql/">
-        mysql导出表结构及表数据 mysqldump用法
+      <a href="/2015/12/10/uiwebview-move-speed/">
+        提高UIWebView滚动速度
       </a>
     </div>
   
@@ -268,7 +305,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="2015/12/10/uiwebview-move-speed/" data-title="提高UIWebView滚动速度" data-url="http://www.iwant.live/2015/12/10/uiwebview-move-speed/"></div>
+	<div class="ds-thread" data-thread-key="2015/12/23/ios-open-source/" data-title="IOS开源库整理" data-url="http://www.iwant.live/2015/12/23/ios-open-source/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
@@ -304,16 +341,14 @@
 
   
   
-    
     <div  class="post-nav-button">
-    <a href="/2015/12/23/ios-open-source/" title="上一篇: IOS开源库整理">
-    <i class="fa fa-angle-left"></i>
-    </a>
-    <a href="/2015/12/01/mysql-dump-sql/" title="下一篇: mysql导出表结构及表数据 mysqldump用法">
+    <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+    <a href="/2015/12/10/uiwebview-move-speed/" title="下一篇: 提高UIWebView滚动速度">
     <i class="fa fa-angle-right"></i>
     </a>
     </div>
   
+    
 
 
 
