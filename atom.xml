@@ -4,7 +4,7 @@
   <subtitle><![CDATA[只要面对着阳光努力向上，日子就会变得单纯而美好]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.iwant.live/"/>
-  <updated>2015-12-23T07:03:33.000Z</updated>
+  <updated>2015-12-24T03:25:16.000Z</updated>
   <id>http://www.iwant.live/</id>
   
   <author>
@@ -13,6 +13,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[UI设计资源整理]]></title>
+    <link href="http://www.iwant.live/2015/12/24/ui-design-resource/"/>
+    <id>http://www.iwant.live/2015/12/24/ui-design-resource/</id>
+    <published>2015-12-24T03:17:21.000Z</published>
+    <updated>2015-12-24T03:25:16.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>学习网址</p>
+</blockquote>
+<ul>
+<li><a href="http://www.yunrui.co/" target="_blank" rel="external">云端设计</a>UI设计与体验博客</li>
+<li><a href="https://www.behance.net" target="_blank" rel="external">Behance</a>在线作品集</li>
+<li><a href="http://appui.mobi/" target="_blank" rel="external">APP UI</a>发现设计 分享设计</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[UI设计资源整理]]>
+    
+    </summary>
+    
+      <category term="UI" scheme="http://www.iwant.live/categories/UI/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[IOS学习资料整理]]></title>
