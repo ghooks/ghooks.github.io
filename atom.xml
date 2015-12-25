@@ -3,9 +3,9 @@
   <title><![CDATA[拂尘的博客]]></title>
   <subtitle><![CDATA[只要面对着阳光努力向上，日子就会变得单纯而美好]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://www.iwant.live/"/>
+  <link href="http://blog.iwant.live/"/>
   <updated>2015-12-25T03:12:21.000Z</updated>
-  <id>http://www.iwant.live/</id>
+  <id>http://blog.iwant.live/</id>
   
   <author>
     <name><![CDATA[拂尘]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Nginx 域名重定向]]></title>
-    <link href="http://www.iwant.live/2015/12/25/linux-redirect-site/"/>
-    <id>http://www.iwant.live/2015/12/25/linux-redirect-site/</id>
+    <link href="http://blog.iwant.live/2015/12/25/linux-redirect-site/"/>
+    <id>http://blog.iwant.live/2015/12/25/linux-redirect-site/</id>
     <published>2015-12-25T03:10:00.000Z</published>
     <updated>2015-12-25T03:12:21.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -30,16 +30,16 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://www.iwant.live/tags/Linux/"/>
+      <category term="Linux" scheme="http://blog.iwant.live/tags/Linux/"/>
     
-      <category term="系统运维" scheme="http://www.iwant.live/categories/%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4/"/>
+      <category term="系统运维" scheme="http://blog.iwant.live/categories/%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[UI设计资源整理]]></title>
-    <link href="http://www.iwant.live/2015/12/24/ui-design-resource/"/>
-    <id>http://www.iwant.live/2015/12/24/ui-design-resource/</id>
+    <link href="http://blog.iwant.live/2015/12/24/ui-design-resource/"/>
+    <id>http://blog.iwant.live/2015/12/24/ui-design-resource/</id>
     <published>2015-12-24T03:17:21.000Z</published>
     <updated>2015-12-25T02:24:55.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -56,14 +56,14 @@
     
     </summary>
     
-      <category term="UI设计" scheme="http://www.iwant.live/categories/UI%E8%AE%BE%E8%AE%A1/"/>
+      <category term="UI设计" scheme="http://blog.iwant.live/categories/UI%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[IOS学习资料整理]]></title>
-    <link href="http://www.iwant.live/2015/12/23/ios-study-resource/"/>
-    <id>http://www.iwant.live/2015/12/23/ios-study-resource/</id>
+    <link href="http://blog.iwant.live/2015/12/23/ios-study-resource/"/>
+    <id>http://blog.iwant.live/2015/12/23/ios-study-resource/</id>
     <published>2015-12-23T04:01:01.000Z</published>
     <updated>2015-12-25T02:25:18.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -110,16 +110,16 @@
     
     </summary>
     
-      <category term="IOS" scheme="http://www.iwant.live/tags/IOS/"/>
+      <category term="IOS" scheme="http://blog.iwant.live/tags/IOS/"/>
     
-      <category term="移动开发" scheme="http://www.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[IOS开源库整理]]></title>
-    <link href="http://www.iwant.live/2015/12/23/ios-open-source/"/>
-    <id>http://www.iwant.live/2015/12/23/ios-open-source/</id>
+    <link href="http://blog.iwant.live/2015/12/23/ios-open-source/"/>
+    <id>http://blog.iwant.live/2015/12/23/ios-open-source/</id>
     <published>2015-12-23T02:44:45.000Z</published>
     <updated>2015-12-25T02:25:06.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -181,16 +181,16 @@
     
     </summary>
     
-      <category term="IOS" scheme="http://www.iwant.live/tags/IOS/"/>
+      <category term="IOS" scheme="http://blog.iwant.live/tags/IOS/"/>
     
-      <category term="移动开发" scheme="http://www.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[提高UIWebView滚动速度]]></title>
-    <link href="http://www.iwant.live/2015/12/10/uiwebview-move-speed/"/>
-    <id>http://www.iwant.live/2015/12/10/uiwebview-move-speed/</id>
+    <link href="http://blog.iwant.live/2015/12/10/uiwebview-move-speed/"/>
+    <id>http://blog.iwant.live/2015/12/10/uiwebview-move-speed/</id>
     <published>2015-12-10T07:41:12.000Z</published>
     <updated>2015-12-25T02:26:28.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -203,18 +203,18 @@
     
     </summary>
     
-      <category term="IOS" scheme="http://www.iwant.live/tags/IOS/"/>
+      <category term="IOS" scheme="http://blog.iwant.live/tags/IOS/"/>
     
-      <category term="UIWebView" scheme="http://www.iwant.live/tags/UIWebView/"/>
+      <category term="UIWebView" scheme="http://blog.iwant.live/tags/UIWebView/"/>
     
-      <category term="移动开发" scheme="http://www.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[mysql导出表结构及表数据 mysqldump用法]]></title>
-    <link href="http://www.iwant.live/2015/12/01/mysql-dump-sql/"/>
-    <id>http://www.iwant.live/2015/12/01/mysql-dump-sql/</id>
+    <link href="http://blog.iwant.live/2015/12/01/mysql-dump-sql/"/>
+    <id>http://blog.iwant.live/2015/12/01/mysql-dump-sql/</id>
     <published>2015-12-01T15:18:58.000Z</published>
     <updated>2015-12-25T02:25:32.000Z</updated>
     <content type="html"><![CDATA[<p>命令行下具体用户如下：mysqldump -u用户名 -p密码 -d 数据库名称 表明 &gt; 文件名</p>
@@ -244,16 +244,16 @@
     
     </summary>
     
-      <category term="Mysql" scheme="http://www.iwant.live/tags/Mysql/"/>
+      <category term="Mysql" scheme="http://blog.iwant.live/tags/Mysql/"/>
     
-      <category term="数据库" scheme="http://www.iwant.live/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="http://blog.iwant.live/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[linux oracle自动备份脚本]]></title>
-    <link href="http://www.iwant.live/2015/11/29/linux-oracle-auto-backup/"/>
-    <id>http://www.iwant.live/2015/11/29/linux-oracle-auto-backup/</id>
+    <link href="http://blog.iwant.live/2015/11/29/linux-oracle-auto-backup/"/>
+    <id>http://blog.iwant.live/2015/11/29/linux-oracle-auto-backup/</id>
     <published>2015-11-29T06:13:39.000Z</published>
     <updated>2015-12-25T02:25:28.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -274,16 +274,16 @@
     
     </summary>
     
-      <category term="Oracle" scheme="http://www.iwant.live/tags/Oracle/"/>
+      <category term="Oracle" scheme="http://blog.iwant.live/tags/Oracle/"/>
     
-      <category term="数据库" scheme="http://www.iwant.live/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+      <category term="数据库" scheme="http://blog.iwant.live/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[UIImageView旋转消除锯齿]]></title>
-    <link href="http://www.iwant.live/2015/11/29/ios-remove-tooth/"/>
-    <id>http://www.iwant.live/2015/11/29/ios-remove-tooth/</id>
+    <link href="http://blog.iwant.live/2015/11/29/ios-remove-tooth/"/>
+    <id>http://blog.iwant.live/2015/11/29/ios-remove-tooth/</id>
     <published>2015-11-29T06:00:44.000Z</published>
     <updated>2015-12-25T02:25:10.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -297,16 +297,16 @@
     
     </summary>
     
-      <category term="IOS" scheme="http://www.iwant.live/tags/IOS/"/>
+      <category term="IOS" scheme="http://blog.iwant.live/tags/IOS/"/>
     
-      <category term="移动开发" scheme="http://www.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[java验证iap支付收据]]></title>
-    <link href="http://www.iwant.live/2015/11/29/java-verify-iap/"/>
-    <id>http://www.iwant.live/2015/11/29/java-verify-iap/</id>
+    <link href="http://blog.iwant.live/2015/11/29/java-verify-iap/"/>
+    <id>http://blog.iwant.live/2015/11/29/java-verify-iap/</id>
     <published>2015-11-29T05:38:10.000Z</published>
     <updated>2015-12-25T03:45:37.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -319,20 +319,20 @@
     
     </summary>
     
-      <category term="IAP" scheme="http://www.iwant.live/tags/IAP/"/>
+      <category term="IAP" scheme="http://blog.iwant.live/tags/IAP/"/>
     
-      <category term="IOS" scheme="http://www.iwant.live/tags/IOS/"/>
+      <category term="IOS" scheme="http://blog.iwant.live/tags/IOS/"/>
     
-      <category term="Java" scheme="http://www.iwant.live/tags/Java/"/>
+      <category term="Java" scheme="http://blog.iwant.live/tags/Java/"/>
     
-      <category term="移动开发" scheme="http://www.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
+      <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://www.iwant.live/2015/11/28/hello-world/"/>
-    <id>http://www.iwant.live/2015/11/28/hello-world/</id>
+    <link href="http://blog.iwant.live/2015/11/28/hello-world/"/>
+    <id>http://blog.iwant.live/2015/11/28/hello-world/</id>
     <published>2015-11-28T06:13:39.000Z</published>
     <updated>2015-12-25T02:28:00.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
@@ -352,7 +352,7 @@
     
     </summary>
     
-      <category term="综合" scheme="http://www.iwant.live/categories/%E7%BB%BC%E5%90%88/"/>
+      <category term="综合" scheme="http://blog.iwant.live/categories/%E7%BB%BC%E5%90%88/"/>
     
   </entry>
   
