@@ -268,7 +268,7 @@
     </div>
     <div class="tags" id="tags" style="display:none">
         <ul>
-        <a href="/tags/IAP/" style="font-size: 16px; color: #00f">IAP</a> <a href="/tags/IOS/" style="font-size: 35px; color: #f00">IOS</a> <a href="/tags/Java/" style="font-size: 16px; color: #00f">Java</a> <a href="/tags/Linux/" style="font-size: 16px; color: #00f">Linux</a> <a href="/tags/Mysql/" style="font-size: 16px; color: #00f">Mysql</a> <a href="/tags/Oracle/" style="font-size: 16px; color: #00f">Oracle</a> <a href="/tags/UIWebView/" style="font-size: 16px; color: #00f">UIWebView</a>
+        <a href="/tags/IAP/" style="font-size: 16px; color: #808080">IAP</a> <a href="/tags/IOS/" style="font-size: 35px; color: #000">IOS</a> <a href="/tags/Java/" style="font-size: 16px; color: #808080">Java</a> <a href="/tags/Linux/" style="font-size: 16px; color: #808080">Linux</a> <a href="/tags/Mysql/" style="font-size: 16px; color: #808080">Mysql</a> <a href="/tags/Oracle/" style="font-size: 16px; color: #808080">Oracle</a> <a href="/tags/UIWebView/" style="font-size: 16px; color: #808080">UIWebView</a>
         </ul>
     </div>
     <style>
@@ -331,22 +331,22 @@
         var u = window.navigator.userAgent;
         var isMobile = !!u.match(/AppleWebKit.*Mobile.*/);
         $(function(){
-            TagCanvas.Start('my3DTags','tags',{
-                textFont: 'Georgia,Optima',
-                textColour: null,
-                outlineColour: '#ff00ff',
-                weight: true,
-                reverse: true,
-                depth: 0.8,
-                maxSpeed: 0.05,
-                bgRadius: 1,
-                freezeDecel: true
-            });
             if (isMobile) {
-                var width = $(window).width() - 40;
-                $("#my3DTags").width(width).height(width).parent().height(width);
+                $("#tags").show();
+            } else {
+                TagCanvas.Start('my3DTags','tags',{
+                    textFont: 'Georgia,Optima',
+                    textColour: null,
+                    outlineColour: '#ff00ff',
+                    weight: true,
+                    reverse: true,
+                    depth: 0.8,
+                    maxSpeed: 0.05,
+                    bgRadius: 1,
+                    freezeDecel: true
+                });
+                $("#my3DTags").show();
             }
-            $("#my3DTags").show();
         });
     </script>
 
