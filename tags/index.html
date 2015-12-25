@@ -267,9 +267,7 @@
         </canvas>
     </div>
     <div class="tags" id="tags" style="display:none">
-        <ul>
-        <a href="/tags/IAP/" style="font-size: 16px; color: #808080">IAP</a> <a href="/tags/IOS/" style="font-size: 35px; color: #000">IOS</a> <a href="/tags/Java/" style="font-size: 16px; color: #808080">Java</a> <a href="/tags/Linux/" style="font-size: 16px; color: #808080">Linux</a> <a href="/tags/Mysql/" style="font-size: 16px; color: #808080">Mysql</a> <a href="/tags/Oracle/" style="font-size: 16px; color: #808080">Oracle</a> <a href="/tags/UIWebView/" style="font-size: 16px; color: #808080">UIWebView</a>
-        </ul>
+        <a href="/tags/IAP/" style="font-size: 16px; color: #696969">IAP</a> <a href="/tags/IOS/" style="font-size: 35px; color: #696969">IOS</a> <a href="/tags/Java/" style="font-size: 16px; color: #696969">Java</a> <a href="/tags/Linux/" style="font-size: 16px; color: #696969">Linux</a> <a href="/tags/Mysql/" style="font-size: 16px; color: #696969">Mysql</a> <a href="/tags/Oracle/" style="font-size: 16px; color: #696969">Oracle</a> <a href="/tags/UIWebView/" style="font-size: 16px; color: #696969">UIWebView</a>
     </div>
     <style>
         .category-list li{
@@ -332,18 +330,19 @@
         var isMobile = !!u.match(/AppleWebKit.*Mobile.*/);
         $(function(){
             if (isMobile) {
+                $("#my3DTags").remove();
                 $("#tags").show();
             } else {
-                TagCanvas.Start('my3DTags','tags',{
+                TagCanvas.Start('my3DTags','tags', {
                     textFont: 'Georgia,Optima',
                     textColour: null,
-                    outlineColour: '#ff00ff',
+                    outlineColour: '#696969',
                     weight: true,
                     reverse: true,
-                    depth: 0.8,
+                    depth: 0.99,
                     maxSpeed: 0.05,
                     bgRadius: 1,
-                    freezeDecel: true
+                    wheelZoom: false
                 });
                 $("#my3DTags").show();
             }
