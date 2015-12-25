@@ -4,7 +4,7 @@
   <subtitle><![CDATA[只要面对着阳光努力向上，日子就会变得单纯而美好]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.iwant.live/"/>
-  <updated>2015-12-25T03:12:21.000Z</updated>
+  <updated>2015-12-25T06:21:24.000Z</updated>
   <id>http://blog.iwant.live/</id>
   
   <author>
@@ -19,15 +19,17 @@
     <link href="http://blog.iwant.live/2015/12/25/linux-redirect-site/"/>
     <id>http://blog.iwant.live/2015/12/25/linux-redirect-site/</id>
     <published>2015-12-25T03:10:00.000Z</published>
-    <updated>2015-12-25T03:12:21.000Z</updated>
+    <updated>2015-12-25T06:21:24.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>Nginx 域名重定向</p>
 </blockquote>
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">server</span> &#123;</span><br><span class="line"></span><br><span class="line"><span class="title">listen</span> <span class="number">80</span>;</span><br><span class="line"></span><br><span class="line"><span class="title">server_name</span> xxx.com;</span><br><span class="line"></span><br><span class="line"><span class="title">return</span> <span class="number">301</span> <span class="url">http://www.xxx.com<span class="variable">$request_uri</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
-    <![CDATA[Nginx 域名重定向]]>
-    
+    <![CDATA[<blockquote>
+<p>Nginx 域名重定向</p>
+</blockquote>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span>]]>
     </summary>
     
       <category term="Linux" scheme="http://blog.iwant.live/tags/Linux/"/>
@@ -41,7 +43,7 @@
     <link href="http://blog.iwant.live/2015/12/24/ui-design-resource/"/>
     <id>http://blog.iwant.live/2015/12/24/ui-design-resource/</id>
     <published>2015-12-24T03:17:21.000Z</published>
-    <updated>2015-12-25T02:24:55.000Z</updated>
+    <updated>2015-12-25T06:21:30.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>学习网址</p>
 </blockquote>
@@ -52,8 +54,12 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[UI设计资源整理]]>
-    
+    <![CDATA[<blockquote>
+<p>学习网址</p>
+</blockquote>
+<ul>
+<li><a href="http://www.yunrui.co/" target="_blank" rel="external">云端设计</a>UI设计与体验博客</li>
+<li><a]]>
     </summary>
     
       <category term="UI设计" scheme="http://blog.iwant.live/categories/UI%E8%AE%BE%E8%AE%A1/"/>
@@ -65,7 +71,7 @@
     <link href="http://blog.iwant.live/2015/12/23/ios-study-resource/"/>
     <id>http://blog.iwant.live/2015/12/23/ios-study-resource/</id>
     <published>2015-12-23T04:01:01.000Z</published>
-    <updated>2015-12-25T02:25:18.000Z</updated>
+    <updated>2015-12-25T06:21:17.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>学习网址</p>
 </blockquote>
@@ -106,7 +112,21 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[IOS学习,常用网址]]>
+    <![CDATA[<blockquote>
+<p>学习网址</p>
+</blockquote>
+<ul>
+<li><a href="http://code4app.com/">Code4app</a></li>
+<li><a href="http://www.cocoachina.com/">CocoaChina</a></li>
+<li><a href="http://www.oschina.net/ios">OSChina</a></li>
+</ul>
+<blockquote>
+<p>大神博客</p>
+</blockquote>
+<ul>
+<li><a href="http://blog.devtang.com/">唐巧的博客</a></li>
+<li><a href="http://blog.ibireme.com/">ibireme</a></li>
+</ul>]]>
     
     </summary>
     
@@ -121,7 +141,7 @@
     <link href="http://blog.iwant.live/2015/12/23/ios-open-source/"/>
     <id>http://blog.iwant.live/2015/12/23/ios-open-source/</id>
     <published>2015-12-23T02:44:45.000Z</published>
-    <updated>2015-12-25T02:25:06.000Z</updated>
+    <updated>2015-12-25T06:19:21.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>网络相关</p>
 </blockquote>
@@ -177,7 +197,23 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[IOS开源库,opensource]]>
+    <![CDATA[<blockquote>
+<p>网络相关</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/AFNetworking/AFNetworking">AFNetwoking</a>最多人用的网络连接开源库。</li>
+<li><a href="https://github.com/Alamofire/Alamofire">Alamofire</a>Alamofire是AFNetworking的作者mattt新写的网络请求的swift库。</li>
+<li><a href="https://github.com/ninjinkun/NJKWebViewProgress">NJKWebViewProgress</a>UIWebView显示进度条。</li>
+</ul>
+<blockquote>
+<p>图像相关</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/rs/SDWebImage">SDWebImage</a>网络图片获取及缓存处理。</li>
+<li><a href="https://github.com/onevcat/Kingfisher">Kingfisher</a>纯Swift实现的类SDWebImage库，实现了异步下载和缓存图片。</li>
+<li><a href="https://github.com/ruslanskorb/RSKImageCropper">RSKImageCropper</a>图片裁剪库，支持自定义比例。</li>
+<li><a href="https://github.com/nicklockwood/FXBlurView">FXBlurView</a>支持静态、动态毛玻璃效果。</li>
+</ul>]]>
     
     </summary>
     
@@ -192,15 +228,17 @@
     <link href="http://blog.iwant.live/2015/12/10/uiwebview-move-speed/"/>
     <id>http://blog.iwant.live/2015/12/10/uiwebview-move-speed/</id>
     <published>2015-12-10T07:41:12.000Z</published>
-    <updated>2015-12-25T02:26:28.000Z</updated>
+    <updated>2015-12-25T06:21:32.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>提高UIWebView滚动速度</p>
 </blockquote>
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">self</span><span class="variable">.webView</span><span class="variable">.scrollView</span><span class="variable">.decelerationRate</span> = <span class="built_in">UIScrollViewDecelerationRateNormal</span>;</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
-    <![CDATA[提高UIWebView滚动速度]]>
-    
+    <![CDATA[<blockquote>
+<p>提高UIWebView滚动速度</p>
+</blockquote>
+<figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line"]]>
     </summary>
     
       <category term="IOS" scheme="http://blog.iwant.live/tags/IOS/"/>
@@ -216,7 +254,7 @@
     <link href="http://blog.iwant.live/2015/12/01/mysql-dump-sql/"/>
     <id>http://blog.iwant.live/2015/12/01/mysql-dump-sql/</id>
     <published>2015-12-01T15:18:58.000Z</published>
-    <updated>2015-12-25T02:25:32.000Z</updated>
+    <updated>2015-12-25T06:21:27.000Z</updated>
     <content type="html"><![CDATA[<p>命令行下具体用户如下：mysqldump -u用户名 -p密码 -d 数据库名称 表明 &gt; 文件名</p>
 <blockquote>
 <p>1、导出数据库为dbname的表结构(其中用户名为root，密码为123456)</p>
@@ -240,8 +278,11 @@
 </code></pre>
 ]]></content>
     <summary type="html">
-    <![CDATA[mysql导出表结构及表数据]]>
-    
+    <![CDATA[<p>命令行下具体用户如下：mysqldump -u用户名 -p密码 -d 数据库名称 表明 &gt; 文件名</p>
+<blockquote>
+<p>1、导出数据库为dbname的表结构(其中用户名为root，密码为123456)</p>
+</blockquote>
+<pre>]]>
     </summary>
     
       <category term="Mysql" scheme="http://blog.iwant.live/tags/Mysql/"/>
@@ -255,7 +296,7 @@
     <link href="http://blog.iwant.live/2015/11/29/linux-oracle-auto-backup/"/>
     <id>http://blog.iwant.live/2015/11/29/linux-oracle-auto-backup/</id>
     <published>2015-11-29T06:13:39.000Z</published>
-    <updated>2015-12-25T02:25:28.000Z</updated>
+    <updated>2015-12-25T06:21:22.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>1、备份脚本</p>
 </blockquote>
@@ -270,7 +311,10 @@
 <p>说明：文件备份目录，用户oracle必须有更改权限，否则无法备份。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[oracle自动备份脚本]]>
+    <![CDATA[<blockquote>
+<p>1、备份脚本</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="shebang">#!/bin/sh  </span><br><span class="line">  </span></span><br><span class="line"><span class="built_in">export</span> ORACLE_BASE=/home/oracle  </span><br><span class="line"><span class="built_in">export</span> ORACLE_HOME=<span class="variable">$ORACLE_BASE</span>/product/<span class="number">10.2</span>.<span class="number">0</span>/db_1  </span><br><span class="line"><span class="built_in">export</span> ORACLE_SID=orcl  </span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:<span class="variable">$HOME</span>/bin:<span class="variable">$ORACLE_HOME</span>/bin  </span><br><span class="line">  </span><br><span class="line"><span class="built_in">export</span> DATA_DIR=/home/bakup/data  </span><br><span class="line"><span class="built_in">export</span> LOGS_DIR=/home/bakup/logs  </span><br><span class="line"><span class="built_in">export</span> DELTIME=`date <span class="operator">-d</span> <span class="string">"7 days ago"</span> +%Y%m%d`  </span><br><span class="line"><span class="built_in">export</span> BAKUPTIME=`date +%Y%m%d%H%M%S`  </span><br><span class="line">  </span><br><span class="line">mkdir -p <span class="variable">$DATA_DIR</span>  </span><br><span class="line">mkdir -p <span class="variable">$LOGS_DIR</span>  </span><br><span class="line">  </span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Starting bakup..."</span>  </span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Bakup file path <span class="variable">$DATA_DIR</span>/<span class="variable">$BAKUPTIME</span>.dmp"</span>  </span><br><span class="line">exp shop/lyisABC0987@orcl file=<span class="variable">$DATA_DIR</span>/<span class="variable">$BAKUPTIME</span>.dmp <span class="built_in">log</span>=<span class="variable">$LOGS_DIR</span>/<span class="variable">$BAKUPTIME</span>.log  </span><br><span class="line">  </span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Delete the file bakup before 7 days..."</span>  </span><br><span class="line">rm -rf <span class="variable">$DATA_DIR</span>/<span class="variable">$DELTIME</span>*.dmp  </span><br><span class="line">rm -rf <span class="variable">$LOGS_DIR</span>/<span class="variable">$DELTIME</span>*.log  </span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Delete the file bakup successfully. "</span>  </span><br><span class="line">  </span><br><span class="line"><span class="built_in">echo</span> <span class="string">"Bakup completed."</span></span><br></pre></td></tr></table></figure>]]>
     
     </summary>
     
@@ -285,7 +329,7 @@
     <link href="http://blog.iwant.live/2015/11/29/ios-remove-tooth/"/>
     <id>http://blog.iwant.live/2015/11/29/ios-remove-tooth/</id>
     <published>2015-11-29T06:00:44.000Z</published>
-    <updated>2015-12-25T02:25:10.000Z</updated>
+    <updated>2015-12-25T06:21:15.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>UIImageView旋转消除锯齿</p>
 </blockquote>
@@ -293,8 +337,10 @@
 <p>如果直接在*-Info.plist配置以下代码，会导致UIAlertView显示有问题。<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Renders <span class="keyword">with</span> edge antialiasing = YES</span><br></pre></td></tr></table></figure></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[UIImageView旋转消除锯齿]]>
-    
+    <![CDATA[<blockquote>
+<p>UIImageView旋转消除锯齿</p>
+</blockquote>
+<figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="lin]]>
     </summary>
     
       <category term="IOS" scheme="http://blog.iwant.live/tags/IOS/"/>
@@ -308,15 +354,17 @@
     <link href="http://blog.iwant.live/2015/11/29/java-verify-iap/"/>
     <id>http://blog.iwant.live/2015/11/29/java-verify-iap/</id>
     <published>2015-11-29T05:38:10.000Z</published>
-    <updated>2015-12-25T03:45:37.000Z</updated>
+    <updated>2015-12-25T06:21:20.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>使用HttpsURLConnection验证收据</p>
 </blockquote>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> JSONObject <span class="title">verifyReceipt</span><span class="params">(String recepit)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> verifyReceipt(<span class="string">"https://buy.itunes.apple.com/verifyReceipt"</span>, recepit);  </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> JSONObject <span class="title">verifyReceipt</span><span class="params">(String url, String receipt)</span> </span>&#123;  </span><br><span class="line">    <span class="keyword">try</span> &#123;  </span><br><span class="line">        HttpsURLConnection connection = (HttpsURLConnection) <span class="keyword">new</span> URL(url).openConnection();    </span><br><span class="line">        connection.setRequestMethod(<span class="string">"POST"</span>);    </span><br><span class="line">        connection.setDoOutput(<span class="keyword">true</span>);    </span><br><span class="line">        connection.setAllowUserInteraction(<span class="keyword">false</span>);   </span><br><span class="line">        PrintStream ps = <span class="keyword">new</span> PrintStream(connection.getOutputStream());    </span><br><span class="line">        ps.print(<span class="string">"&#123;\"receipt-data\": \""</span> + receipt + <span class="string">"\"&#125;"</span>);    </span><br><span class="line">        ps.close();    </span><br><span class="line">        BufferedReader br = <span class="keyword">new</span> BufferedReader(<span class="keyword">new</span> InputStreamReader(connection.getInputStream()));    </span><br><span class="line">        String str;    </span><br><span class="line">        StringBuffer sb = <span class="keyword">new</span> StringBuffer();    </span><br><span class="line">        <span class="keyword">while</span> ((str = br.readLine()) != <span class="keyword">null</span>) &#123;    </span><br><span class="line">            sb.append(str);      </span><br><span class="line">        &#125;    </span><br><span class="line">        br.close();    </span><br><span class="line">        String resultStr = sb.toString();    </span><br><span class="line">        JSONObject result = JSONObject.parseObject(resultStr);  </span><br><span class="line">        <span class="keyword">if</span> (result != <span class="keyword">null</span> &amp;&amp; result.getInteger(<span class="string">"status"</span>) == <span class="number">21007</span>) &#123;  </span><br><span class="line">            <span class="keyword">return</span> verifyReceipt(<span class="string">"https://sandbox.itunes.apple.com/verifyReceipt"</span>, receipt);  </span><br><span class="line">        &#125;  </span><br><span class="line">        <span class="keyword">return</span> result;  </span><br><span class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;  </span><br><span class="line">        e.printStackTrace();  </span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">null</span>;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
-    <![CDATA[java验证iap支付收据]]>
-    
+    <![CDATA[<blockquote>
+<p>使用HttpsURLConnection验证收据</p>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="li]]>
     </summary>
     
       <category term="IAP" scheme="http://blog.iwant.live/tags/IAP/"/>
