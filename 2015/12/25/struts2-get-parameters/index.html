@@ -3,17 +3,42 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: IOS | 拂尘的博客</title>
+  <title>struts2 if:test 获取paparameters值 | 拂尘的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="拂尘的博客">
-<meta property="og:url" content="http://blog.iwant.live/tags/IOS/index.html">
+  <meta name="description" content="正确用法
+
+123&amp;lt;s:if test=&quot;#parameters.lang[0] == &apos;zh&apos;&quot;&amp;gt;  ...  &amp;lt;/s:if&amp;gt;
+
+错误用法
+
+123&amp;lt;s:if test=&quot;#parameters[&apos;lang&apos;] == &apos;zh&apos;&quot;&amp;gt;  ...  &amp;lt;/s:if&amp;gt;
+但是如下代码都是正确的
+12&amp;lt;s:property value=&quot;#paramete">
+<meta property="og:type" content="article">
+<meta property="og:title" content="struts2 if:test 获取paparameters值">
+<meta property="og:url" content="http://blog.iwant.live/2015/12/25/struts2-get-parameters/index.html">
 <meta property="og:site_name" content="拂尘的博客">
-<meta property="og:description">
+<meta property="og:description" content="正确用法
+
+123&amp;lt;s:if test=&quot;#parameters.lang[0] == &apos;zh&apos;&quot;&amp;gt;  ...  &amp;lt;/s:if&amp;gt;
+
+错误用法
+
+123&amp;lt;s:if test=&quot;#parameters[&apos;lang&apos;] == &apos;zh&apos;&quot;&amp;gt;  ...  &amp;lt;/s:if&amp;gt;
+但是如下代码都是正确的
+12&amp;lt;s:property value=&quot;#paramete">
+<meta property="og:updated_time" content="2015-12-25T11:47:50.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="拂尘的博客">
-<meta name="twitter:description">
+<meta name="twitter:title" content="struts2 if:test 获取paparameters值">
+<meta name="twitter:description" content="正确用法
+
+123&amp;lt;s:if test=&quot;#parameters.lang[0] == &apos;zh&apos;&quot;&amp;gt;  ...  &amp;lt;/s:if&amp;gt;
+
+错误用法
+
+123&amp;lt;s:if test=&quot;#parameters[&apos;lang&apos;] == &apos;zh&apos;&quot;&amp;gt;  ...  &amp;lt;/s:if&amp;gt;
+但是如下代码都是正确的
+12&amp;lt;s:property value=&quot;#paramete">
   
     <link rel="alternative" href="/atom.xml" title="拂尘的博客" type="application/atom+xml">
   
@@ -184,198 +209,173 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-struts2-get-parameters" class="article article-type-post" itemscope itemprop="blogPost">
   
+    <div class="article-meta">
+      <a href="/2015/12/25/struts2-get-parameters/" class="article-date">
+      <time datetime="2015-12-25T11:19:15.000Z" itemprop="datePublished">2015-12-25</time>
+</a>
+    </div>
   
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      struts2 if:test 获取paparameters值
+    </h1>
+  
+
+      </header>
       
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/J2EE/">J2EE</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Struts2/">Struts2</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
     
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2015/12/23/ios-study-resource/" class="archive-article-date">
-      <time datetime="2015-12-23T04:01:01.000Z" itemprop="datePublished">Dec 23</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/23/ios-study-resource/">IOS学习资料整理</a>
-    </h1>
-  
-
-        <div class="article-info info-on-archive">
+    <div class="article-entry" itemprop="articleBody">
+      
           
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/移动开发/">移动开发</a>
+        <blockquote>
+<p>正确用法</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">s:if</span> <span class="attribute">test</span>=<span class="value">"#parameters.lang[0] == 'zh'"</span>&gt;</span>  </span><br><span class="line">...  </span><br><span class="line"><span class="tag">&lt;/<span class="title">s:if</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>错误用法</p>
+</blockquote>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">s:if</span> <span class="attribute">test</span>=<span class="value">"#parameters['lang'] == 'zh'"</span>&gt;</span>  </span><br><span class="line">...  </span><br><span class="line"><span class="tag">&lt;/<span class="title">s:if</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>但是如下代码都是正确的</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">s:property</span> <span class="attribute">value</span>=<span class="value">"#parameters.lang[0]"</span>/&gt;</span>  </span><br><span class="line"><span class="tag">&lt;<span class="title">s:property</span> <span class="attribute">value</span>=<span class="value">"#parameters['lang']"</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+      
     </div>
-
-
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IOS/">IOS</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
+    
   </div>
+  
+    
+
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2015/12/25/linux-redirect-site/">
+                    Nginx 域名重定向
+                </a>
+            </div>
+        
+    </nav>
+
+  
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2015/12/23/ios-open-source/" class="archive-article-date">
-      <time datetime="2015-12-23T02:44:45.000Z" itemprop="datePublished">Dec 23</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/23/ios-open-source/">IOS开源库整理</a>
-    </h1>
-  
 
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/移动开发/">移动开发</a>
+
+<div class="share">
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+    <a href="#" class="bds_copy" data-cmd="copy" title="复制网址"></a>
+    <a href="#" class="bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+    </div>
+    <script>
+        window._bd_share_config={
+            "common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+</div>
+
+
+
+    <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2015/12/25/struts2-get-parameters/" data-title="struts2 if:test 获取paparameters值" data-url="http://blog.iwant.live/2015/12/25/struts2-get-parameters/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"ghooks"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2015/12/25/linux-redirect-site/" title="下一篇: Nginx 域名重定向">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
     </div>
 
-
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IOS/">IOS</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2015/12/10/uiwebview-move-speed/" class="archive-article-date">
-      <time datetime="2015-12-10T07:41:12.000Z" itemprop="datePublished">Dec 10</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/12/10/uiwebview-move-speed/">提高UIWebView滚动速度</a>
-    </h1>
-  
-
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/移动开发/">移动开发</a>
-    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/struts2-get-parameters/">struts2 if:test 获取paparameters值</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/linux-redirect-site/">Nginx 域名重定向</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/24/ui-design-resource/">UI设计资源整理</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/23/ios-study-resource/">IOS学习资料整理</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/23/ios-open-source/">IOS开源库整理</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/10/uiwebview-move-speed/">提高UIWebView滚动速度</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/01/mysql-dump-sql/">mysql导出表结构及表数据 mysqldump用法</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/11/29/linux-oracle-auto-backup/">linux oracle自动备份脚本</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/11/29/ios-remove-tooth/">UIImageView旋转消除锯齿</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/11/29/java-verify-iap/">java验证iap支付收据</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/11/28/hello-world/">Hello World</a></li></ul>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200);
+            }
+            else {
+                $(".switch-btn, .switch-area").toggle(200);
+            }
+        })
+    </script>
 
 
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IOS/">IOS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UIWebView/">UIWebView</a></li></ul>
-    </div>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2015/11/29/ios-remove-tooth/" class="archive-article-date">
-      <time datetime="2015-11-29T06:00:44.000Z" itemprop="datePublished">Nov 29</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/11/29/ios-remove-tooth/">UIImageView旋转消除锯齿</a>
-    </h1>
-  
-
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/移动开发/">移动开发</a>
-    </div>
-
-
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IOS/">IOS</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2015/11/29/java-verify-iap/" class="archive-article-date">
-      <time datetime="2015-11-29T05:38:10.000Z" itemprop="datePublished">Nov 29</time>
-</a>
-        </div>
-         
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/11/29/java-verify-iap/">java验证iap支付收据</a>
-    </h1>
-  
-
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/移动开发/">移动开发</a>
-    </div>
-
-
-          
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IAP/">IAP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IOS/">IOS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li></ul>
-    </div>
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
     
-
+        <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+        <script>
+            var yiliaConfig = {
+            fancybox: true,
+            mathjax: true,
+            animate: true,
+            isHome: false,
+            isPost: true,
+            isArchive: false,
+            isTag: false,
+            isCategory: false,
+            open_in_new: false
+            }
+        </script>
+        
 </div>
       <footer id="footer">
     <div class="outer">
@@ -420,20 +420,6 @@ var _hmt = _hmt || [];
 </script>
     </div>
     
-    <script>
-        var yiliaConfig = {
-            fancybox: false,
-            mathjax: true,
-            animate: true,
-            isHome: false,
-            isPost: false,
-            isArchive: false,
-            isTag: true,
-            isCategory: false,
-            open_in_new: false
-        }
-    </script>
-
 
 <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="/js/main.js" type="text/javascript"></script>
@@ -483,17 +469,6 @@ MathJax.Hub.Queue(function() {
         };
     })
 </script>
-
-    <button class="hide-labels">TAG 开关</button>
-    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js">
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".article-info").toggle(200);
-            });
-        });
-    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
