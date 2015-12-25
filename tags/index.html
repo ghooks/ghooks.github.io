@@ -329,7 +329,7 @@
         var isMobile = !!u.match(/AppleWebKit.*Mobile.*/);
         $(function(){
             if (isMobile) {
-                $("#my3DTags").remove();
+                $("#my3DTags").parent().remove();
                 $("#tags").show();
             } else {
                 TagCanvas.Start('my3DTags','tags', {
