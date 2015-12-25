@@ -261,8 +261,8 @@
     <p class="count"></p>
 
     <script src="/js/tagcanvas.js" type="text/javascript"></script>
-    <div class="tags" id="myTags" style="height:320px">
-        <canvas width="320" height="320" id="my3DTags" style="display:none">
+    <div class="tags" id="myTags" style="height:500px">
+        <canvas width="500" height="500" id="my3DTags" style="display:none">
             <p>Anything in here will be replaced on browsers that support the canvas element</p>
         </canvas>
     </div>
@@ -328,9 +328,10 @@
         $('#count').appendTo('.count');
     </script>
     <script type="text/javascript">
-        window.onload = function() {
-            try {
-              TagCanvas.Start('my3DTags','tags',{
+        var u = window.navigator.userAgent;
+        var isMobile = !!u.match(/AppleWebKit.*Mobile.*/);
+        $(function(){
+            TagCanvas.Start('my3DTags','tags',{
                 textFont: 'Georgia,Optima',
                 textColour: null,
                 outlineColour: '#ff00ff',
@@ -340,12 +341,13 @@
                 maxSpeed: 0.05,
                 bgRadius: 1,
                 freezeDecel: true
-              });
-              $("#my3DTags").show();
-              alert($(window).width());
-            } catch(e) {
+            });
+            if (isMobile) {
+                var width = $(window).width();
+                $("#my3DTags").width(width).height(width).parent().height(width);
             }
-        };
+            $("#my3DTags").show();
+        });
     </script>
 
 
