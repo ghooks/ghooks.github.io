@@ -42,7 +42,7 @@
     <link href="http://blog.iwant.live/2015/12/25/struts2-get-parameters/"/>
     <id>http://blog.iwant.live/2015/12/25/struts2-get-parameters/</id>
     <published>2015-12-25T11:19:15.000Z</published>
-    <updated>2015-12-26T04:42:07.000Z</updated>
+    <updated>2015-12-26T04:44:38.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>正确用法</p>
 </blockquote>
@@ -60,7 +60,7 @@
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span]]>
     </summary>
     
-      <category term="struts2s" scheme="http://blog.iwant.live/tags/struts2s/"/>
+      <category term="struts2" scheme="http://blog.iwant.live/tags/struts2/"/>
     
       <category term="J2EE" scheme="http://blog.iwant.live/categories/J2EE/"/>
     
@@ -71,7 +71,7 @@
     <link href="http://blog.iwant.live/2015/12/25/linux-redirect-site/"/>
     <id>http://blog.iwant.live/2015/12/25/linux-redirect-site/</id>
     <published>2015-12-25T03:10:00.000Z</published>
-    <updated>2015-12-26T04:42:10.000Z</updated>
+    <updated>2015-12-26T04:44:34.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>Nginx 域名重定向</p>
 </blockquote>
@@ -84,7 +84,7 @@
 <figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span>]]>
     </summary>
     
-      <category term="linuxs" scheme="http://blog.iwant.live/tags/linuxs/"/>
+      <category term="linux" scheme="http://blog.iwant.live/tags/linux/"/>
     
       <category term="系统运维" scheme="http://blog.iwant.live/categories/%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4/"/>
     
@@ -95,7 +95,7 @@
     <link href="http://blog.iwant.live/2015/12/24/ui-design-resource/"/>
     <id>http://blog.iwant.live/2015/12/24/ui-design-resource/</id>
     <published>2015-12-24T03:17:21.000Z</published>
-    <updated>2015-12-26T04:42:06.000Z</updated>
+    <updated>2015-12-26T04:44:40.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>学习网址</p>
 </blockquote>
@@ -123,7 +123,7 @@
     <link href="http://blog.iwant.live/2015/12/23/ios-study-resource/"/>
     <id>http://blog.iwant.live/2015/12/23/ios-study-resource/</id>
     <published>2015-12-23T04:01:01.000Z</published>
-    <updated>2015-12-26T04:42:23.000Z</updated>
+    <updated>2015-12-26T04:44:20.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>学习网址</p>
 </blockquote>
@@ -182,7 +182,7 @@
     
     </summary>
     
-      <category term="ioss" scheme="http://blog.iwant.live/tags/ioss/"/>
+      <category term="ios" scheme="http://blog.iwant.live/tags/ios/"/>
     
       <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
@@ -193,7 +193,7 @@
     <link href="http://blog.iwant.live/2015/12/23/ios-open-source/"/>
     <id>http://blog.iwant.live/2015/12/23/ios-open-source/</id>
     <published>2015-12-23T02:44:45.000Z</published>
-    <updated>2015-12-26T04:42:26.000Z</updated>
+    <updated>2015-12-26T04:44:17.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>网络相关</p>
 </blockquote>
@@ -269,7 +269,7 @@
     
     </summary>
     
-      <category term="ioss" scheme="http://blog.iwant.live/tags/ioss/"/>
+      <category term="ios" scheme="http://blog.iwant.live/tags/ios/"/>
     
       <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
@@ -280,7 +280,7 @@
     <link href="http://blog.iwant.live/2015/12/10/uiwebview-move-speed/"/>
     <id>http://blog.iwant.live/2015/12/10/uiwebview-move-speed/</id>
     <published>2015-12-10T07:41:12.000Z</published>
-    <updated>2015-12-26T04:42:03.000Z</updated>
+    <updated>2015-12-26T04:44:42.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>提高UIWebView滚动速度</p>
 </blockquote>
@@ -293,7 +293,7 @@
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line"]]>
     </summary>
     
-      <category term="ioss" scheme="http://blog.iwant.live/tags/ioss/"/>
+      <category term="ios" scheme="http://blog.iwant.live/tags/ios/"/>
     
       <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
@@ -304,7 +304,7 @@
     <link href="http://blog.iwant.live/2015/12/01/mysql-dump-sql/"/>
     <id>http://blog.iwant.live/2015/12/01/mysql-dump-sql/</id>
     <published>2015-12-01T15:18:58.000Z</published>
-    <updated>2015-12-26T04:42:08.000Z</updated>
+    <updated>2015-12-26T04:44:36.000Z</updated>
     <content type="html"><![CDATA[<p>命令行下具体用户如下：mysqldump -u用户名 -p密码 -d 数据库名称 表明 &gt; 文件名</p>
 <blockquote>
 <p>1、导出数据库为dbname的表结构(其中用户名为root，密码为123456)</p>
@@ -335,7 +335,7 @@
 <pre>]]>
     </summary>
     
-      <category term="mysqls" scheme="http://blog.iwant.live/tags/mysqls/"/>
+      <category term="mysql" scheme="http://blog.iwant.live/tags/mysql/"/>
     
       <category term="数据库" scheme="http://blog.iwant.live/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
@@ -346,7 +346,7 @@
     <link href="http://blog.iwant.live/2015/11/29/linux-oracle-auto-backup/"/>
     <id>http://blog.iwant.live/2015/11/29/linux-oracle-auto-backup/</id>
     <published>2015-11-29T06:13:39.000Z</published>
-    <updated>2015-12-26T04:42:15.000Z</updated>
+    <updated>2015-12-26T04:44:32.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>1、备份脚本</p>
 </blockquote>
@@ -368,9 +368,9 @@
     
     </summary>
     
-      <category term="linuxs" scheme="http://blog.iwant.live/tags/linuxs/"/>
+      <category term="linux" scheme="http://blog.iwant.live/tags/linux/"/>
     
-      <category term="oracles" scheme="http://blog.iwant.live/tags/oracles/"/>
+      <category term="oracle" scheme="http://blog.iwant.live/tags/oracle/"/>
     
       <category term="数据库" scheme="http://blog.iwant.live/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
@@ -381,7 +381,7 @@
     <link href="http://blog.iwant.live/2015/11/29/ios-remove-tooth/"/>
     <id>http://blog.iwant.live/2015/11/29/ios-remove-tooth/</id>
     <published>2015-11-29T06:00:44.000Z</published>
-    <updated>2015-12-26T04:42:24.000Z</updated>
+    <updated>2015-12-26T04:44:43.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>UIImageView旋转消除锯齿</p>
 </blockquote>
@@ -395,7 +395,7 @@
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="lin]]>
     </summary>
     
-      <category term="ioss" scheme="http://blog.iwant.live/tags/ioss/"/>
+      <category term="ios" scheme="http://blog.iwant.live/tags/ios/"/>
     
       <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
@@ -406,7 +406,7 @@
     <link href="http://blog.iwant.live/2015/11/29/java-verify-iap/"/>
     <id>http://blog.iwant.live/2015/11/29/java-verify-iap/</id>
     <published>2015-11-29T05:38:10.000Z</published>
-    <updated>2015-12-26T04:42:20.000Z</updated>
+    <updated>2015-12-26T04:44:24.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p>使用HttpsURLConnection验证收据</p>
 </blockquote>
@@ -419,11 +419,11 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="li]]>
     </summary>
     
-      <category term="iaps" scheme="http://blog.iwant.live/tags/iaps/"/>
+      <category term="iap" scheme="http://blog.iwant.live/tags/iap/"/>
     
-      <category term="ioss" scheme="http://blog.iwant.live/tags/ioss/"/>
+      <category term="ios" scheme="http://blog.iwant.live/tags/ios/"/>
     
-      <category term="javas" scheme="http://blog.iwant.live/tags/javas/"/>
+      <category term="java" scheme="http://blog.iwant.live/tags/java/"/>
     
       <category term="移动开发" scheme="http://blog.iwant.live/categories/%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91/"/>
     
