@@ -4,7 +4,7 @@
   <subtitle><![CDATA[只要面对着阳光努力向上，日子就会变得单纯而美好]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.iwant.live/"/>
-  <updated>2015-12-25T11:56:44.000Z</updated>
+  <updated>2015-12-28T01:51:15.000Z</updated>
   <id>http://blog.iwant.live/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[杭州西溪湿地晚霞]]></title>
+    <link href="http://blog.iwant.live/2015/12/26/hz-xxsd-sunset-glow/"/>
+    <id>http://blog.iwant.live/2015/12/26/hz-xxsd-sunset-glow/</id>
+    <published>2015-12-26T08:22:47.000Z</published>
+    <updated>2015-12-28T01:51:15.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://oi64.tinypic.com/2v3ldo9.jpg" alt=""><a id="more"></a><br><img src="http://oi65.tinypic.com/121bbbs.jpg" alt=""><br><img src="http://oi67.tinypic.com/30tlwt4.jpg" alt=""><br><img src="http://oi64.tinypic.com/5cbvw4.jpg" alt=""><br><img src="http://oi64.tinypic.com/2yyzf6a.jpg" alt=""><br><img src="http://oi67.tinypic.com/votkj4.jpg" alt=""><br><img src="http://oi63.tinypic.com/2a8lwr5.jpg" alt=""><br><img src="http://oi67.tinypic.com/9s5a42.jpg" alt=""><br><img src="http://oi63.tinypic.com/2iaubuh.jpg" alt=""><br><img src="http://oi63.tinypic.com/2iaubuh.jpg" alt=""><br><img src="http://oi68.tinypic.com/2zfrfk1.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://oi64.tinypic.com/2v3ldo9.jpg" alt="">]]>
+    
+    </summary>
+    
+      <category term="photography" scheme="http://blog.iwant.live/tags/photography/"/>
+    
+      <category term="生活" scheme="http://blog.iwant.live/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[jquery 选中/获取复选框、下拉框的值]]></title>
@@ -33,7 +52,7 @@
     
       <category term="jquery" scheme="http://blog.iwant.live/tags/jquery/"/>
     
-      <category term="Web前端" scheme="http://blog.iwant.live/categories/Web%E5%89%8D%E7%AB%AF/"/>
+      <category term="Web前端" scheme="http://blog.iwant.live/categories/web%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -62,7 +81,7 @@
     
       <category term="struts2" scheme="http://blog.iwant.live/tags/struts2/"/>
     
-      <category term="J2EE" scheme="http://blog.iwant.live/categories/J2EE/"/>
+      <category term="J2EE" scheme="http://blog.iwant.live/categories/j2ee/"/>
     
   </entry>
   
@@ -114,7 +133,7 @@
 <li><a]]>
     </summary>
     
-      <category term="UI设计" scheme="http://blog.iwant.live/categories/UI%E8%AE%BE%E8%AE%A1/"/>
+      <category term="UI设计" scheme="http://blog.iwant.live/categories/ui%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
